@@ -1,0 +1,337 @@
+body {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color: #6f6767;
+}
+
+a {
+  color: #6f6767;
+}
+a:hover {
+  color: #ea9a1f;
+  text-decoration: none;
+}
+a:focus {
+  outline: 0;
+}
+
+.bg-color {
+  background-color: #f9f0f0;
+}
+
+.button {
+  background-color: #ffffff;
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+  color: #6f6767;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.7;
+  padding: 10px 40px;
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -ms-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+}
+.button:hover, .button:focus {
+  background-color: #265196;
+  color: #ffffff;
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -ms-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+}
+
+.bg-color {
+  background-color: #f1f1f1;
+}
+
+.section-heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.accordion-style-1 .card {
+  margin-bottom: 2px;
+}
+.accordion-style-1 .card-header {
+  background-color: #17223f;
+  border-color: #17223f;
+  color: #ffffff;
+  cursor: pointer;
+}
+.accordion-style-1 .card-header[aria-expanded="true"]:before, .accordion-style-1 .card-header[aria-expanded="false"]:before {
+  content: "\f068";
+  font-size: 19px;
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.accordion-style-1 .card-header[aria-expanded="false"]:before {
+  content: "\f067";
+}
+.accordion-style-1 #accordion-1-second .card-header[aria-expanded="true"]:before, .accordion-style-1 #accordion-1-second .card-header[aria-expanded="false"]:before {
+  display: none;
+}
+.accordion-style-1 #accordion-1-second .card-header[aria-expanded="true"]::after, .accordion-style-1 #accordion-1-second .card-header[aria-expanded="false"]::after {
+  background-color: #fff;
+  color: #17223f;
+  content: "\f106";
+  display: inline-block;
+  float: right;
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 19px;
+  margin-left: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+  border-radius: 50%;
+}
+.accordion-style-1 #accordion-1-second .card-header[aria-expanded="false"]::after {
+  content: "\f107";
+  line-height: 22px;
+}
+
+.accordion-style-2 .card {
+  margin-bottom: 2px;
+}
+.accordion-style-2 .card-header {
+  padding-left: 60px;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-style-2 .card-header[aria-expanded="true"]:before, .accordion-style-2 .card-header[aria-expanded="false"]:before {
+  background-color: #17223f;
+  bottom: -1px;
+  color: #ffffff;
+  content: "\f068";
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  left: 0;
+  line-height: 50px;
+  margin-right: 5px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+  width: 50px;
+}
+.accordion-style-2 .card-header[aria-expanded="false"]:before {
+  content: "\f067";
+}
+.accordion-style-2 #accordion-2-second .card-header {
+  padding-right: 60px;
+  padding-left: 1.25rem;
+}
+.accordion-style-2 #accordion-2-second .card-header[aria-expanded="true"]:before, .accordion-style-2 #accordion-2-second .card-header[aria-expanded="false"]:before {
+  display: none;
+}
+.accordion-style-2 #accordion-2-second .card-header[aria-expanded="true"]::after, .accordion-style-2 #accordion-2-second .card-header[aria-expanded="false"]::after {
+  background-color: #17223f;
+  color: #ffffff;
+  bottom: -1px;
+  content: "\f106";
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  right: 0;
+  left: auto;
+  line-height: 50px;
+  margin-left: 5px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+  width: 50px;
+}
+.accordion-style-2 #accordion-2-second .card-header[aria-expanded="false"]::after {
+  content: "\f107";
+}
+
+.accordion-style-3 .card {
+  margin-bottom: 2px;
+}
+.accordion-style-3 .card-header {
+  padding-right: 60px;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-style-3 .card-header[aria-expanded="true"]:before, .accordion-style-3 .card-header[aria-expanded="false"]:before {
+  bottom: -1px;
+  color: #17223f;
+  content: "\f067";
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  right: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+  width: 50px;
+  transform: rotate(45deg);
+  transition: 0.3s linear all;
+}
+.accordion-style-3 .card-header[aria-expanded="false"]:before {
+  transform: rotate(0deg);
+  transition: 0.3s linear all;
+}
+.accordion-style-3 #accordion-3-second .card-header {
+  padding-left: 60px;
+  padding-right: 1.25rem;
+}
+.accordion-style-3 #accordion-3-second .card-header[aria-expanded="true"]:before, .accordion-style-3 #accordion-3-second .card-header[aria-expanded="false"]:before {
+  display: none;
+}
+.accordion-style-3 #accordion-3-second .card-header[aria-expanded="true"]::after, .accordion-style-3 #accordion-3-second .card-header[aria-expanded="false"]::after {
+  bottom: -1px;
+  color: #17223f;
+  content: "\f106";
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  top: 0;
+  transition: 0.3s linear all;
+  vertical-align: middle;
+  width: 50px;
+  transform: rotate(0deg);
+}
+.accordion-style-3 #accordion-3-second .card-header[aria-expanded="false"]::after {
+  transform: rotate(180deg);
+  transition: 0.3s linear all;
+}
+
+.accordion-style-4 .card {
+  margin-bottom: 10px;
+  border-width: 0 0 0 2px;
+  border-style: solid;
+  border-color: #17223f;
+  border-radius: 0;
+}
+.accordion-style-4 .card-header {
+  padding-right: 60px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+}
+.accordion-style-4 .card-header[aria-expanded="true"]:before, .accordion-style-4 .card-header[aria-expanded="false"]:before {
+  bottom: -1px;
+  color: #333333;
+  content: "\f067";
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  right: 0;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+  width: 50px;
+  transform: rotate(45deg);
+  transition: 0.3s linear all;
+}
+.accordion-style-4 .card-header[aria-expanded="false"]:before {
+  transform: rotate(0deg);
+  transition: 0.3s linear all;
+}
+.accordion-style-4 #accordion-4-second .card {
+  background-color: #17223f;
+  border: none;
+  color: #ffffff;
+}
+.accordion-style-4 #accordion-4-second .card .card-body {
+  border-top: 1px solid #ffffff;
+}
+.accordion-style-4 #accordion-4-second .card-header[aria-expanded="true"]::before, .accordion-style-4 #accordion-4-second .card-header[aria-expanded="false"]::before {
+  bottom: -1px;
+  color: #ffffff;
+  content: "\f106";
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: 0.3s linear all;
+  vertical-align: middle;
+  width: 50px;
+  transform: rotate(0deg);
+}
+.accordion-style-4 #accordion-4-second .card-header[aria-expanded="false"]::before {
+  transform: rotate(180deg);
+  transition: 0.3s linear all;
+}
+
+.accordion-style-5 .card {
+  margin-bottom: 15px;
+  border: none;
+}
+.accordion-style-5 .card-header {
+  background-color: #17223f;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding-right: 60px;
+  position: relative;
+  border-radius: 40px;
+}
+.accordion-style-5 .card-header[aria-expanded="true"]:before, .accordion-style-5 .card-header[aria-expanded="false"]:before {
+  bottom: -1px;
+  color: #ffffff;
+  content: "\f067";
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transform: rotate(45deg);
+  transition: 0.3s linear all;
+  vertical-align: middle;
+  width: 50px;
+}
+.accordion-style-5 .card-header[aria-expanded="false"]:before {
+  transform: rotate(0deg);
+  transition: 0.3s linear all;
+}
+.accordion-style-5 #accordion-5-second .card {
+  border: none;
+}
+.accordion-style-5 #accordion-5-second .card-header[aria-expanded="true"] {
+  border-radius: 40px 40px 0 0;
+}
+.accordion-style-5 #accordion-5-second .card-header[aria-expanded="true"]::before, .accordion-style-5 #accordion-5-second .card-header[aria-expanded="false"]::before {
+  bottom: -1px;
+  color: #ffffff;
+  content: "\f106";
+font-family: "Font Awesome 5 Free"; font-weight:900;
+  font-size: 19px;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: 0.3s linear all;
+  vertical-align: middle;
+  width: 50px;
+  transform: rotate(0deg);
+}
+.accordion-style-5 #accordion-5-second .card-header[aria-expanded="false"]::before {
+  transform: rotate(180deg);
+  transition: 0.3s linear all;
+}-*
